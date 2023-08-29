@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.highlight {
+  position: relative;
+  background-color: #e8e8e8;
+  min-height: 450px;
+}
+.highlight h1 {
+  padding-top: 2rem;
+  line-height: 2rem;
+}
+
+.highlight-list {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 1.2rem;
+}
+.highlight-list .highlight-item {
+  width: 100%;
+}
+
+#Bedroom {
+  padding-top: 5rem;
+}
+
+.highlight-2 {
+  position: relative;
+  background-color: #e8e8e8;
+  min-height: 450px;
+}
+
+.highlight-2 h1 {
+  padding-top: 1.2rem;
+}
+.highlight-2-list {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 1.2rem;
+}
+.highlight-2-list .highlight-2-item {
+  width: 100%;
+}
