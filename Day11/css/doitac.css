@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  color: #222;
+  font-family: "font-medium";
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main #banner {
+  position: relative;
+}
+
+main #banner .container {
+  position: relative;
+}
+
+main #banner .container .banner-img {
+  width: 100%;
+}
+
+main .container .banner-img img {
+  width: 100%;
+  filter: brightness(30%);
+}
+
+#doitac {
+  width: 100%;
+}
+
+#doitac .container {
+  width: calc(12 * 100% / 18);
+  margin: auto;
+  padding-top: 30px;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 45rem;
+  color: #292626;
+}
+
+#doitac .container .content .doitac-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
